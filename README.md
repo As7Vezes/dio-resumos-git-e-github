@@ -39,7 +39,7 @@ git commit --amend -m "<message>"
 ### git reset --soft Defazer o commit e retornar para o commit anterior
 #### obs: Você tem que copiar o hash do commit em que você quer retornar. 
 
-#### o git reset soft pega os arquivos do commit em que você quer desafazer o commit em coloca denovo na área de preparação para para o commit dele novament.
+#### o git reset --soft pega os arquivos do commit em que você quer desafazer e coloca novamente na área de preparação para enviar o commit.
 ```
 git reset --soft <commitHash>
 ```
@@ -47,7 +47,7 @@ git reset --soft <commitHash>
 ### git reset --mixed Defazer o commit e retornar para o commit anterior
 #### obs: Você tem que copiar o hash do commit em que você quer retornar. 
 
-#### o git reset --mixed pega os arquivos do commit em que você quer desafazer o commit e coloca como se eles não fosse nem colocados pra área de preparação do commit.
+#### o git reset --mixed pega os arquivos do commit em que você quer desafazer e coloca como se eles não fosse nem colocados pra área de preparação do commit.
 ```
 git reset --mixed <commitHash>
 ```
